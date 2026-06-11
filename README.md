@@ -70,3 +70,13 @@ pip install numpy pandas matplotlib seaborn scikit-learn hmmlearn dandi pynwb h5
 * **3D Neural Manifolds:** `matplotlib` will render the physical shape of the animal's consciousness during the maze task.
 * **STDP Assimilation Metrics:** The console will output the exact number of synapses fortified during the Exocortex training loop (typically ~49+ million structural changes).
 * **Latency Benchmarks:** The final Phase 9.5 cell will execute the cybernetic shunt. Watch the console output: if the "Calculation Latency" is < 2.0 ms, the script has successfully executed the digital response faster than a physical biological chemical synapse.
+
+## Using Custom Biological Datasets
+
+This pipeline is not limited to a single database. You are not restricted to the `sub-AppleBottom` Stanford mouse dataset and can process alternative electrophysiology recordings from the [DANDI Archive](https://dandiarchive.org/).
+
+To swap the wetware dataset:
+1. Navigate to **Phase 1** in the Jupyter Notebook.
+2. Replace the DANDI download command with your target dataset URL/ID:
+   ```bash
+   !dandi download DANDI:YOUR_TARGET_DATASET_ID
